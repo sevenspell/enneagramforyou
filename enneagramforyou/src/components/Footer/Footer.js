@@ -16,7 +16,7 @@ function Footer() {
             minHeight: '100vh',
         },
         main: {
-            background: theme.palette.primary.light,
+            background: theme.palette.primary.main,
             // color: theme.palette.primary.dark,
             top: 'auto',
             bottom: 0,

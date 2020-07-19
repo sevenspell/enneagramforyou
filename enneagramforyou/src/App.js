@@ -17,7 +17,7 @@ function App() {
                     <Route exact path="/" component={About} />
                     <Route exact path="/enneagram" component={Enneagram} />
                 </div>
-                <Header />
+                {/* <Header /> */}
                 <Footer />
             </BrowserRouter>
         </ThemeProvider>
