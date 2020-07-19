@@ -5,19 +5,17 @@ import { makeStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 import AppBar from '@material-ui/core/AppBar';
 
-
-
 function Footer() {
 
+     // create custom css styling using makeStyles
     const useStyles = makeStyles((theme) => ({
         root: {
             display: 'flex',
             flexDirection: 'column',
-            minHeight: '100vh',
+            minHeight: '20vh',
         },
         main: {
             background: theme.palette.primary.main,
-            // color: theme.palette.primary.dark,
             top: 'auto',
             bottom: 0,
         },

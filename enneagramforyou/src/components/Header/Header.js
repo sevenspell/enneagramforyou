@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 
 function Header(props) {
 
-
+    // create custom css styling using makeStyles
     const useStyles = makeStyles((theme) => ({
         root: {
             flexGrow: 1,
@@ -13,15 +13,13 @@ function Header(props) {
         main: {
             background: theme.palette.secondary.light,
             color: theme.palette.primary.main,
-            top: 'auto',
-            bottom: 0,
+            marginTop: theme.spacing(8)
         },
         header: {
             flexGrow: 1,
             fontFamily: ['BenchNine', 'sans-serif'],
             fontSize: 20,
             textAlign: 'center',
-
         },
     }));
 

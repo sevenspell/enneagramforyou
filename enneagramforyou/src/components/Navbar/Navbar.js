@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 
 function Navbar() {
 
+     // create custom css styling using makeStyles
     const useStyles = makeStyles((theme) => ({
         root: {
             flexGrow: 1,
@@ -23,7 +24,7 @@ function Navbar() {
 
     return (
         <div className={classes.root} >
-            <AppBar position="static" color="primary">
+            <AppBar position="fixed" color="primary">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
                         Enneagram For You

@@ -4,7 +4,6 @@ import About from "./pages/About/About";
 import Enneagram from "./pages/Enneagram/Enneagram";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from "./theme";
 
@@ -17,7 +16,6 @@ function App() {
                     <Route exact path="/" component={About} />
                     <Route exact path="/enneagram" component={Enneagram} />
                 </div>
-                {/* <Header /> */}
                 <Footer />
             </BrowserRouter>
         </ThemeProvider>
