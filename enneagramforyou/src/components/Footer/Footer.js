@@ -13,6 +13,9 @@ function Footer() {
             display: 'flex',
             flexDirection: 'column',
             minHeight: '20vh',
+            [theme.breakpoints.down('md')]: {
+                minHeight: '5vh',
+            },
         },
         main: {
             background: theme.palette.primary.main,
@@ -20,10 +23,15 @@ function Footer() {
             bottom: 0,
         },
         footer: {
-            padding: theme.spacing(1, 70),
+            padding: theme.spacing(1),
+            textAlign: 'center',
             marginTop: 'auto',
             fontFamily: ['BenchNine', 'sans-serif'],
-            fontSize: 18,
+            fontSize: 20,
+            [theme.breakpoints.down('md')]: {
+                padding: theme.spacing(1),
+                fontSize: 16,
+            },
         },
     }));
 

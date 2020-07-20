@@ -19,7 +19,20 @@ function About() {
             marginTop: theme.spacing(4)
         },
         paragraph: {
-            padding: theme.spacing(2)
+            padding: theme.spacing(2),
+            fontSize: 16,
+            [theme.breakpoints.down('sm')]: {
+                padding: theme.spacing(1),
+                fontSize: 12,
+            },
+        },
+        caption: {
+            fontSize: 10,
+            padding: theme.spacing(2),
+            [theme.breakpoints.down('sm')]: {
+                padding: theme.spacing(1),
+                fontSize: 8,
+            },
         }
     }));
 
@@ -47,7 +60,7 @@ function About() {
                         <Typography variant="body1" className={classes.paragraph}>
                             Get started <a href="/enneagram">here</a> by finding out more about the nine Enneagram Types.
                         </Typography>
-                        <Typography variant="caption" className={classes.paragraph}>
+                        <Typography variant="caption" className={classes.caption}>
                             Information source: <a href="https://www.integrative9.com/" target="blank" rel="noopener noreferrer">Integrative9 Enneagram Solutions</a>.
                         </Typography>
                     </Paper>
