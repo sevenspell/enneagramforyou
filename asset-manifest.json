@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sevenspell/enneagramforyou/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/sevenspell/enneagramforyou/static/js/main.798c2f87.chunk.js",
-    "main.js.map": "/sevenspell/enneagramforyou/static/js/main.798c2f87.chunk.js.map",
-    "runtime-main.js": "/sevenspell/enneagramforyou/static/js/runtime-main.79d737c7.js",
-    "runtime-main.js.map": "/sevenspell/enneagramforyou/static/js/runtime-main.79d737c7.js.map",
-    "static/js/2.79166dc5.chunk.js": "/sevenspell/enneagramforyou/static/js/2.79166dc5.chunk.js",
-    "static/js/2.79166dc5.chunk.js.map": "/sevenspell/enneagramforyou/static/js/2.79166dc5.chunk.js.map",
-    "index.html": "/sevenspell/enneagramforyou/index.html",
-    "precache-manifest.ca3d10687bc0c5111fae738fe2317a06.js": "/sevenspell/enneagramforyou/precache-manifest.ca3d10687bc0c5111fae738fe2317a06.js",
-    "service-worker.js": "/sevenspell/enneagramforyou/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/sevenspell/enneagramforyou/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.79166dc5.chunk.js.LICENSE.txt": "/sevenspell/enneagramforyou/static/js/2.79166dc5.chunk.js.LICENSE.txt",
-    "static/media/egimage.png": "/sevenspell/enneagramforyou/static/media/egimage.68ba501c.png"
+    "main.css": "/enneagramforyou/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/enneagramforyou/static/js/main.d8842f42.chunk.js",
+    "main.js.map": "/enneagramforyou/static/js/main.d8842f42.chunk.js.map",
+    "runtime-main.js": "/enneagramforyou/static/js/runtime-main.053cd6cc.js",
+    "runtime-main.js.map": "/enneagramforyou/static/js/runtime-main.053cd6cc.js.map",
+    "static/js/2.79166dc5.chunk.js": "/enneagramforyou/static/js/2.79166dc5.chunk.js",
+    "static/js/2.79166dc5.chunk.js.map": "/enneagramforyou/static/js/2.79166dc5.chunk.js.map",
+    "index.html": "/enneagramforyou/index.html",
+    "precache-manifest.fa8f5b09d3bcbdc9d9c5a12e3209332f.js": "/enneagramforyou/precache-manifest.fa8f5b09d3bcbdc9d9c5a12e3209332f.js",
+    "service-worker.js": "/enneagramforyou/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/enneagramforyou/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.79166dc5.chunk.js.LICENSE.txt": "/enneagramforyou/static/js/2.79166dc5.chunk.js.LICENSE.txt",
+    "static/media/egimage.png": "/enneagramforyou/static/media/egimage.68ba501c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.79d737c7.js",
+    "static/js/runtime-main.053cd6cc.js",
     "static/js/2.79166dc5.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.798c2f87.chunk.js"
+    "static/js/main.d8842f42.chunk.js"
   ]
 }
